@@ -4,7 +4,7 @@
 
 <p align="center">
   <img alt="Social proof section" src="./design/desktop-preview.jpg" width="100%">
-</p>>>
+</p>
 
 ## 🚀 Built with
 
