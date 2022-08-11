@@ -79,7 +79,11 @@ p {
   margin-inline: 0.2rem;
 }
 
-#depositions {
+#depositions .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
   margin: 3rem 0 8rem;
 
   text-align: initial;
@@ -88,8 +92,34 @@ p {
 #depositions .card {
   background: var(--very-dark-magenta);
   color: var(--light-grayish-magenta);
+
+  border-radius: 0.5rem;
+
+  width: 26rem;
+  padding: 3rem 2.8rem;
 }
 
 #depositions .card p {
   font-size: 1.3rem;
+}
+
+#depositions .card .profile {
+  display: flex;
+
+  margin-bottom: 2.2rem;
+}
+
+#depositions .card .profile img {
+  width: 3.5rem;
+  border-radius: 2rem;
+
+  margin-right: 2rem;
+}
+
+#depositions .card .profile .profile-info p:first-child {
+  font-weight: 700;
+}
+
+#depositions .card .profile .profile-info p:last-child {
+  color: var(--soft-pink);
 }
