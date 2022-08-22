@@ -40,7 +40,7 @@ p {
   margin-bottom: 1.5rem;
 }
 
-#home .content p {
+#home header p {
   color: var(--dark-grayish-magenta);
 
   font-size: 1.4rem;
@@ -122,4 +122,47 @@ p {
 
 #depositions .card .profile .profile-info p:last-child {
   color: var(--soft-pink);
+}
+
+/* responsive */
+@media (min-width: 1024px) {
+  body {
+    text-align: initial;
+
+    margin-top: 18rem;
+  }
+
+  #home {
+    display: flex;
+  }
+
+  #home header {
+    width: 70%;
+  }
+
+  #home h1 {
+    font-size: 5.5rem;
+  }
+
+  #home header p {
+    font-size: 2rem;
+  }
+
+  #home .content .stats {
+    flex-direction: row;
+  }
+
+  #home .content .stat {
+    display: flex;
+  }
+
+  #depositions .cards {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 18rem;
+  }
+
+  #depositions .card {
+    width: 30rem;
+  }
 }
