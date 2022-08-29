@@ -145,15 +145,31 @@ p {
   }
 
   #home header p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+
+  #home .content {
+    width: 100%;
   }
 
   #home .content .stats {
-    flex-direction: row;
+    justify-content: center;
   }
 
   #home .content .stat {
+    width: 80%;
+
     display: flex;
+    align-items: center;
+  }
+
+  #home .content .stat p {
+    font-size: 1.5rem;
+  }
+
+  #home .content .stat .stars {
+    margin-bottom: 0;
+    margin-right: 5rem;
   }
 
   #depositions .cards {
